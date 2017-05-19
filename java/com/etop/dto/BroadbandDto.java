@@ -48,9 +48,58 @@ public class BroadbandDto {
 	
 	private String networkUsage;
 	
+	private String dueDate;
 	
+	private String lineUsage;
+	
+	private int  ipAddressNum;
+	
+	private String ipAddress;
+	
+	private String userDept;
 
 	
+
+	public String getDueDate() {
+		return dueDate;
+	}
+
+	public void setDueDate(String dueDate) {
+		this.dueDate = dueDate;
+	}
+
+	public String getLineUsage() {
+		return lineUsage;
+	}
+
+	public void setLineUsage(String lineUsage) {
+		this.lineUsage = lineUsage;
+	}
+
+	public int  getIpAddressNum() {
+		return ipAddressNum;
+	}
+
+	public void setIpAddressNum(int  ipAddressNum) {
+		
+		this.ipAddressNum = ipAddressNum;
+	}
+
+	public String getIpAddress() {
+		return ipAddress;
+	}
+
+	public void setIpAddress(String ipAddress) {
+		this.ipAddress = ipAddress;
+	}
+
+	public String getUserDept() {
+		return userDept;
+	}
+
+	public void setUserDept(String userDept) {
+		this.userDept = userDept;
+	}
 
 	public String  getStopDate() {
 		return stopDate;

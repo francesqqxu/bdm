@@ -21,7 +21,7 @@ public class FeeConfirmReportDto {
 	
 	private String lineType;
 	
-	private String lineAddress;
+	private String linkAddress;
 	
 	private String operator;
 	
@@ -113,12 +113,12 @@ public class FeeConfirmReportDto {
 		this.lineType = lineType;
 	}
 
-	public String getLineAddress() {
-		return lineAddress;
+	public String getLinkAddress() {
+		return linkAddress;
 	}
 
-	public void setLineAddress(String lineAddress) {
-		this.lineAddress = lineAddress;
+	public void setLinkAddress(String linkAddress) {
+		this.linkAddress = linkAddress;
 	}
 
 	public String getOperator() {
